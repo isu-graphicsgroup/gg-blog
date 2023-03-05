@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Graphics Group"
+  image: GG-hex-small.png
+  favicon: GG-hex-tiny.png
+  navbar:
+    pinned: true
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/isu-graphicsgroup
+      
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+
+
+

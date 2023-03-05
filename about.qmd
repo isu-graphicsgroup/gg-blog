@@ -1,0 +1,44 @@
+---
+title: "About the Graphics Group"
+image: gigi-bake-small.png
+about:
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: github
+      text: GG on Github
+      href: https://github.com/isu-graphicsgroup
+
+---
+
+### We like to talk about graphics 
+
+explore data  with graphics, \
+trash talk bad graphics, \
+discuss what good graphics should look like, \
+discuss why some *should be better* don't end up in *are better* - graphically speaking, \
+come up with a new type of graphic, \
+use graphics in a new way, \
+use graphics in an old way - but better, \
+use graphics our own way. \
+
+### We want to move the field of statistical graphics towards FAIRness
+
+All research should be [FAIR](https://www.go-fair.org/fair-principles/).
+Graphics as well. Open-access and reproducibility are important to us. 
+
+### We like Cookies!
+
+Traditionally, graphics group has aimed at an integration of baked goods and talks. All of this practice makes us practically perfect!
+
+
+
+## Did you know?
+
+The Graphics Group started in 2001, as part of an NSF VIGRE training grant to the Department of Statistics at Iowa State University. 
+
+VIGRE stands for Vertically InteGrated Research and Education. Vertical means that you do not have to be an expert yet, nor do you need to be a graduate student. **Everybody** is welcome! 
+
+
+
+
