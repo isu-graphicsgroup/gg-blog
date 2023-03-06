@@ -1,87 +1,143 @@
 [
   {
-    "objectID": "posts/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html",
-    "href": "posts/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html",
+    "objectID": "posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html",
+    "href": "posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html",
     "title": "The litr package - it’s turtles all the way down!",
     "section": "",
     "text": "The litR R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.\nFor more information got to the litr website"
   },
   {
-    "objectID": "posts/2022-09-29-a-discussion-of-color-ranges/index.html",
-    "href": "posts/2022-09-29-a-discussion-of-color-ranges/index.html",
+    "objectID": "posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html",
+    "href": "posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html",
     "title": "A discussion of color ranges",
     "section": "",
     "text": "This is a discussion of color spaces, optimizing color ranges for aesthetics, light and dark mode, while establishing accessibility and the associated compromises we have to make."
   },
   {
-    "objectID": "posts/2023-03-02-Graphics-outside-of-R/index.html",
-    "href": "posts/2023-03-02-Graphics-outside-of-R/index.html",
-    "title": "Statistical graphics without R? – A quick look outside",
-    "section": "",
-    "text": "The grammar of graphics (Wilkinson 1999, 2005) provides a declarative, object-oriented framework to visualize statistical information as a collection of objects. It is noted that this grammar is not a separate command language, nor is it exhaustive – it is “not designed to produce every graphic imaginable”. The grammar of graphics can be designed atop any programming language, yet most discussions in Graphics Group are around R, to the extent that a survey last year with Monash University’s NUMBATs group did not even provide an option for any other programming language for data visualization. However, it has been (recently) confirmed that graphics can exist without R, and so in this presentation, we shall have a quick look at statistical graphics packages in Python, and discuss their capabilities with respect to the well-known ggplot2 via a few illustrative examples.\n\nLeland Wilkinson, The Grammar of Graphics (1st ed), 1999. ISBN 0-387-98774-6. Springer-Verlag, Berlin, Heidelberg.\nLeland Wilkinson. The Grammar of Graphics (2nd ed), 2005. Springer-Verlag, Berlin, Heidelberg."
-  },
-  {
-    "objectID": "posts/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html",
-    "href": "posts/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html",
-    "title": "Summarizing live traffic incidents in Iowa",
-    "section": "",
-    "text": "Traffic incidents in Iowa are constantly reported through the Advanced Traffic Management System (ATMS). On average, over 100 traffic incidents are daily incidents are reported in ATMS, from crashes and vehicle fires to slow traffic and stalled vehicles. In order to make understand the spatial component of them, trends, summaries and severity, we have developed an interactive dashboard in shiny.\nI will describe the challenges and decisions I made to combine old information and up-to-date information; the tables and figures used to summarize the information; the additional sources of information to provide context to the incidents; and the upcoming and tentative changes to it. I will briefly talk about the technical aspects of the dashboard; it was developed in shiny using a wide variety of packages, like the whole tidyverse, sf, plotly, DT, and leaflet."
-  },
-  {
-    "objectID": "posts/2022-10-20-made-with-yarn-and-glue/index.html",
-    "href": "posts/2022-10-20-made-with-yarn-and-glue/index.html",
+    "objectID": "posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html",
+    "href": "posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html",
     "title": "Made with yarn, strings, and glue: Making R Markdown work better for you",
     "section": "",
     "text": "This week we will watch Alison Hill talk with the Cleveland R User group about making R Markdown a better integrated tool for your work. Alison Hill is a data scientist, behavioral scientist, and an award-winning educator. At RStudio, Dr. Hill works to expand how data scientists can communicate when they use RStudio???s tools for collaborating, sharing, and presenting. Alison loves teaching, and has led advanced workshops on data science communication and machine learning at rstudio::conf, R / Medicine, and R in Pharma. She is also an international keynote speaker (https://alison.rbind.io/talks), co-developer of the palmerpenguins (https://allisonhorst.github.io/palmer…) and distill (https://rstudio.github.io/distill/) R packages, and co-author of the book blogdown: Creating Websites with R Markdown (https://bookdown.org/yihui/blogdown/)."
   },
   {
-    "objectID": "posts/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html",
-    "href": "posts/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html",
+    "objectID": "posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html",
+    "href": "posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html",
     "title": "Pizza Party! Crossover event of NUMBATs and Graphics Group",
     "section": "",
     "text": "This week are going to have a global crossover shared meeting, with Iowa/Nebraska Graphics Group and Australian NUMBATs, with pizza! We are going to talk about favorite R packages, hidden gems, love/hate packages, and our own package contributions. It is a chance to meet like-minded people on the other side of the globe. In preparation, please tell us about your package stories (link to survey sent to Denise)\nslides: https://isu-graphicsgroup.github.io/slide-storage/2022/2022-11-10-made-with-glue/made-with-glue.html#1\nRmd files: https://github.com/isu-graphicsgroup/slide-storage/tree/master/2022/2022-11-10-made-with-glue"
   },
   {
-    "objectID": "posts/2023-03-09-paper-discussion/index.html",
-    "href": "posts/2023-03-09-paper-discussion/index.html",
-    "title": "Displaying proportions and percentages",
-    "section": "",
-    "text": "We will discuss another paper by Ian Spence - this time we focus on the 1991 paper “Displaying proportions and percentages” co-authored with Stephan Lewandowsky. Again, the discussion will center on the user experiment and conclusions drawn. Make sure to read (or at least read over) the paper below.\nSpence, I. and S. Lewandowsky (1991). Displaying proportions and percentages. Applied Cognitive Psychology, 5, 61–77. https://doi.org/10.1002/acp.2350050106"
-  },
-  {
-    "objectID": "posts/2023-02-16-visual-psycho-physics-experiments/index.html",
-    "href": "posts/2023-02-16-visual-psycho-physics-experiments/index.html",
-    "title": "Visual psychophysics of simple graphical elements",
-    "section": "",
-    "text": "We will discuss Ian Spence’s 1990 paper “Visual Psychophysics of simple graphical elements”. Make sure to read (or at least read over) the paper below.\nSpence, I. (1990). Visual psychophysics of simple graphical elements. Journal of Experimental Psychology: Human Perception and Performance, 16(4), 683–692. https://doi.org/10.1037/0096-1523.16.4.683"
-  },
-  {
-    "objectID": "posts/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html",
-    "href": "posts/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html",
-    "title": "Evaluating Perceptual Judgements on 3D Printed Bar Charts",
-    "section": "",
-    "text": "It is well documented that the accuracy of data comparisons is worse for 3D charts, but these studies are almost entirely focused on 2D projections. In this week’s meeting, you will have the opportunity to explore the use of truly three-dimensional charts, as well as more realistic 3D renderings using WebGL and traditional two-dimensional charts. We’ll discuss the Cleveland & McGill study and the challenges of conducting studies that require participants to use both physical and virtual data displays. If you have the ability to attend this meeting in person, you will want to do so!"
-  },
-  {
-    "objectID": "posts/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html",
-    "href": "posts/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html",
+    "objectID": "posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html",
+    "href": "posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html",
     "title": "Testing Charts for Accuracy and Interpretation",
     "section": "",
     "text": "The creation of a data visualization depends on both analytic design and graphic design. Analytic designs focus on the structure of a chart and how data are encoded onto structural pieces such as length, area, and angle. Graphic design focuses on the use of supporting visual elements such as colors, patterns, and supporting context. Our work tests how viewers interact with three elements of modern data visualization: structure, aesthetics, and interpretation. Unlike studies from the past, which used small convenience samples, we utilize NORC’s AmeriSpeak panel, a nationally-representative probability sample, to test how well viewers make decisions from data visualizations with varying structure and aesthetics. In this talk, we will discuss previous work testing graphical perception of structural elements, describe our approach to testing, and share some initial results.\n\nThis is joint work with Nola du Toit, Ed Mulrow, and Heike Hofmann."
   },
   {
-    "objectID": "posts/2022-11-10-the-ggdensity-package/index.html",
-    "href": "posts/2022-11-10-the-ggdensity-package/index.html",
+    "objectID": "posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html",
+    "href": "posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html",
     "title": "The ggdensity package",
     "section": "",
     "text": "A popular strategy for visually summarizing bivariate data is plotting contours of an estimated density surface. Most commonly, the density is estimated with a kernel density estimator and the plotted contours correspond to equally spaced intervals of the estimated density’s height. Notably, this is the case for geom_density_2d() and geom_density_2d_filled() from ggplot2. ggdensity extends ggplot2, providing more interpretable visualizations of density estimates based on highest density regions (HDRs). geom_hdr() and geom_hdr_lines() serve as drop-in replacements for the aforementioned ggplot2 functions, plotting density contours that are chosen to be inferentially relevant. By default, they plot the smallest regions containing 50%, 80%, 95%, and 99% of the estimated density (the HDRs). This results in very interpretable graphics, conveying more information than arbitrary density contours. ggdensity allows for the plotting of contours of densities estimated via methods other than the standard kernel density estimator. Densities can also be estimated by histograms, frequency polygons, and fitting a parametric bivariate normal model. Also included are the functions geom_hdr_fun() and geom_hdr_fun_lines() for plotting HDRs of user-specified probability density functions. This allows for the plotting of a much larger class of HDR estimators than the four available for geom_hdr(). Users can specify and estimate arbitrary parametric models, providing the resulting pdf estimates to geom_hdr_fun() for contouring."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html",
+    "href": "posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html",
+    "title": "Introduction to Dash (using Python) and Observable (Using JavaScript)",
+    "section": "",
+    "text": "If you have built a Shiny app, you have some familiarity with the concept of reactivity. For the next two graphics-groups, we’ll talk about two alternatives to Shiny which also use reactivity:\n\nDash, using Python\nObservable, using JavaScript\n\nAs examples, we’ll talk about how you can build the same app using all three tools. For the first session, we’ll discuss Shiny and Dash.\nHere’s a reference I’m working on: https://ijlyttle.github.io/reactivity-three-ways-quarto/. If you like, you can have a read through the Shiny chapter to set the stage. We’ll focus on the Python chapter this Thursday.\nAs well, I have built an RStudio Cloud project that you can use on Thursday to try out the Dash app – all you would need to do is sign up for the free level of RStudio Cloud: https://rstudio.cloud/plans/free."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html",
+    "href": "posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html",
+    "title": "Intergalactic Time Travel: Estimation Pilot Study",
+    "section": "",
+    "text": "Questioning matters! The last graphical test for my research involves graph comprehension and extracting information from the chart. My talk will involve an interactive portion, inviting you to participate and provide feedback on the study. We will then discuss important aspects of graph comprehension and how they relate to selecting questions for the literal reading of data, reading between the data, and reading beyond the data. I will also share my Wikipedia literature review on intergalactic time conversions.\nSlides for this talk can be found here."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html",
+    "href": "posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html",
+    "title": "Going Analog: Emerging from the Weeds and Broadening our Audience",
+    "section": "",
+    "text": "We could all use a break from our manuscripts (and our screens). Can thinking about our work in a new way help us re-energize? In this talk I’ll share some non-traditional data products that inspire me, some work I’ve been involved with inspired by these new mediums (including work with students), and some reflections about how expanding our sense of what ‘counts’ as a research product can help us reach a broader audience. We’ll even make zines (a DIY blend of text and drawings) that you can take away from the session.\n\nMaterials needed: sheet of paper, writing utensil\nOptional materials: colored writing utensils, scissors\n\nSee slides here."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html",
+    "href": "posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html",
+    "title": "Exploring Rural Shrink Smart Through Guided Discovery Dashboards",
+    "section": "",
+    "text": "Many small and rural places are shrinking. Interactive dashboards are the most common use cases for data visualization and context for exploratory data tools. In our paper, we will explore the specific scope of how dashboards are used in small and rural areas to empower novice analysts to make data-driven decisions. Our framework will suggest a number of research directions to better support small and rural places from shrinking using an interactive dashboard design, implementation, and use for the everyday analyst."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-02-24-Map-matching-in-R.html",
+    "href": "posts/2022-Spring/2022-02-24-Map-matching-in-R.html",
+    "title": "Map matching in R",
+    "section": "",
+    "text": "Map matching is an interesting problem that involves snapping noisy GPS traces to a road network with a high degree of accuracy. It is used by ride-sharing services such as Uber and Lyft, transportation researchers, highway agencies, auto insurance companies, and many others for gaining insights into driver behavior and travel patterns as well as improving operational efficiency. There are various commercial and open source map matching solutions available for use such as Google’s Snap to Roads API, Mapbox’ Map Matching API, and QGIS’s map matching plugin; however, these options are either very expensive (e.g., costs ~$4k to match 500k GPS points using Google’s API) or are very feature-rich (e.g., QGIS) with many more features than we typically need. The fast map matching (FMM) is a lightweight standalone tool for map matching that addresses these issues and is blazing fast. It also has excellent support for large spatial datasets. In this talk, I will discuss the internal specifics of my forthcoming “mapmatchr” R package that provides an R wrapper for the FMM tool.\n\nSlides can be found here.\nGitHub repository can be found here."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html",
+    "href": "posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html",
+    "title": "Automatic Image Captioning using Convolutional and Recurrent Neural Networks",
+    "section": "",
+    "text": "Automatic image captioning is the process of generating a descriptive text description for an image. Image captioning is one of the few applications of deep neural networks where we work with image and text data simultaneously. This captioning model can be trained using standard backpropagation techniques such as Stochastic Gradient Descent (SGD). I trained this model on the MS-COCO dataset with real-world images of humans, animals, vehicles, etc., in various situations and surroundings. For training purposes, I use about 30,000 images which have five human annotations each. The trained captioning model is composed of a Convolutional Neural Network (CNN) to extract features from the image and a Long Short Term Memory Model (LSTM) to extract features from the text description of the image. The goal of the learning problem is to use these visual and textual features to predict a caption as close to the ground truth human caption as possible. To make the model more interpretable, I leverage the work of Xu et al. to visualize where in the image the model fixes its gaze to predict the words in the generated caption. A potential use case of the captioning model would be to create an application that can describe what is happening in a video frame by frame."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html",
+    "href": "posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html",
+    "title": "Using Python in R through the Reticulate Package and its Integration with R Shiny",
+    "section": "",
+    "text": "When working on a project, sometimes it is necessary to use different programming languages to accomplish a task. The Reticulate Package in R creates a R interface to Python, allowing for R and Python to be used smoothly with each other. This presentation will give a brief overview of the Reticulate Package. As an example of the use of this package, I will present a Shiny application that I have been developing, and the steps I took in order to get Python working within the app. This Shiny App will be used to create experimental designs for a farmer’s field based on their specific field conditions (e.g. type of treatment, size of field, etc), where the creation of this design happens in both R and Python."
+  },
+  {
+    "objectID": "posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html",
+    "href": "posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html",
+    "title": "Applying unsupervised and supervised learning methods to minimize risk to bald eagles from industrial wind turbines",
+    "section": "",
+    "text": "In this talk I describe a collaboration with research wildlife biologists and statisticians to analyze over 2 million data points collected from GPS telemetry devices attached to bald eagles. My research project involved two phases: unsupervised learning, and supervised learning. The intent of this project was to understand land types where bald eagles might be at greater risk of collision with industrial wind turbines to inform placement of wind farms.\nSee corresponding research article, Classifying behavior from short-interval biologging data: An example with GPS tracking of birds in Ecology and Evolution."
+  },
+  {
+    "objectID": "posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html",
+    "href": "posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html",
+    "title": "Statistical graphics without R? – A quick look outside",
+    "section": "",
+    "text": "The grammar of graphics (Wilkinson 1999, 2005) provides a declarative, object-oriented framework to visualize statistical information as a collection of objects. It is noted that this grammar is not a separate command language, nor is it exhaustive – it is “not designed to produce every graphic imaginable”. The grammar of graphics can be designed atop any programming language, yet most discussions in Graphics Group are around R, to the extent that a survey last year with Monash University’s NUMBATs group did not even provide an option for any other programming language for data visualization. However, it has been (recently) confirmed that graphics can exist without R, and so in this presentation, we shall have a quick look at statistical graphics packages in Python, and discuss their capabilities with respect to the well-known ggplot2 via a few illustrative examples.\n\nLeland Wilkinson, The Grammar of Graphics (1st ed), 1999. ISBN 0-387-98774-6. Springer-Verlag, Berlin, Heidelberg.\nLeland Wilkinson. The Grammar of Graphics (2nd ed), 2005. Springer-Verlag, Berlin, Heidelberg."
+  },
+  {
+    "objectID": "posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html",
+    "href": "posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html",
+    "title": "Summarizing live traffic incidents in Iowa",
+    "section": "",
+    "text": "Traffic incidents in Iowa are constantly reported through the Advanced Traffic Management System (ATMS). On average, over 100 traffic incidents are daily incidents are reported in ATMS, from crashes and vehicle fires to slow traffic and stalled vehicles. In order to make understand the spatial component of them, trends, summaries and severity, we have developed an interactive dashboard in shiny.\nI will describe the challenges and decisions I made to combine old information and up-to-date information; the tables and figures used to summarize the information; the additional sources of information to provide context to the incidents; and the upcoming and tentative changes to it. I will briefly talk about the technical aspects of the dashboard; it was developed in shiny using a wide variety of packages, like the whole tidyverse, sf, plotly, DT, and leaflet."
+  },
+  {
+    "objectID": "posts/2023-Spring/2023-03-09-paper-discussion/index.html",
+    "href": "posts/2023-Spring/2023-03-09-paper-discussion/index.html",
+    "title": "Displaying proportions and percentages",
+    "section": "",
+    "text": "We will discuss another paper by Ian Spence - this time we focus on the 1991 paper “Displaying proportions and percentages” co-authored with Stephan Lewandowsky. Again, the discussion will center on the user experiment and conclusions drawn. Make sure to read (or at least read over) the paper below.\nSpence, I. and S. Lewandowsky (1991). Displaying proportions and percentages. Applied Cognitive Psychology, 5, 61–77. https://doi.org/10.1002/acp.2350050106"
+  },
+  {
+    "objectID": "posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html",
+    "href": "posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html",
+    "title": "Visual psychophysics of simple graphical elements",
+    "section": "",
+    "text": "We will discuss Ian Spence’s 1990 paper “Visual Psychophysics of simple graphical elements”. Make sure to read (or at least read over) the paper below.\nSpence, I. (1990). Visual psychophysics of simple graphical elements. Journal of Experimental Psychology: Human Perception and Performance, 16(4), 683–692. https://doi.org/10.1037/0096-1523.16.4.683"
+  },
+  {
+    "objectID": "posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html",
+    "href": "posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html",
+    "title": "Evaluating Perceptual Judgements on 3D Printed Bar Charts",
+    "section": "",
+    "text": "It is well documented that the accuracy of data comparisons is worse for 3D charts, but these studies are almost entirely focused on 2D projections. In this week’s meeting, you will have the opportunity to explore the use of truly three-dimensional charts, as well as more realistic 3D renderings using WebGL and traditional two-dimensional charts. We’ll discuss the Cleveland & McGill study and the challenges of conducting studies that require participants to use both physical and virtual data displays. If you have the ability to attend this meeting in person, you will want to do so!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Talks",
     "section": "",
-    "text": "In the Spring 2023 semester, we are meeting on Thursdays at 3:40 pm (Central): at ISU, we meet at 195 Durham (CSAFE suite), at UNL, we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools.\nContact Heike Hofmann, hofmann at iastate.edu, for access to the Zoom link.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nplotscaper\n\n\n\n\n\n\n\nR package\n\n\ninteractive graphics\n\n\n\n\n\n\n\n\n\n\n\nApr 6, 2023\n\n\nAdam Bartoniczek\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\nMar 30, 2023\n\n\nYuhang (Tom) Lin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2023\n\n\nAlexandra Arabio\n\n\n\n\n\n\n  \n\n\n\n\nDisplaying proportions and percentages\n\n\n\n\n\n\n\nuser experiment\n\n\npaper discussion\n\n\n\n\n\n\n\n\n\n\n\nMar 9, 2023\n\n\nHeike Hofmann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical graphics without R? – A quick look outside\n\n\n\n\n\n\n\ngraphics\n\n\npython\n\n\n\n\n\n\n\n\n\n\n\nMar 2, 2023\n\n\nGautham Venkatasubramanian\n\n\n\n\n\n\n  \n\n\n\n\nVisual psychophysics of simple graphical elements\n\n\n\n\n\n\n\npaper discussion\n\n\nuser experiments\n\n\n\n\n\n\n\n\n\n\n\nFeb 16, 2023\n\n\nHeike Hofmann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvaluating Perceptual Judgements on 3D Printed Bar Charts\n\n\n\n\n\n\n\nuser experiments\n\n\n\n\n\n\n\n\n\n\n\nFeb 9, 2023\n\n\nTyler Wiederich, UNL\n\n\n\n\n\n\n  \n\n\n\n\nSummarizing live traffic incidents in Iowa\n\n\n\n\n\n\n\nshiny app\n\n\n\n\n\n\n\n\n\n\n\nFeb 2, 2023\n\n\nGuillermo Basulto, InTrans, ISU\n\n\n\n\n\n\n  \n\n\n\n\nThe litr package - it’s turtles all the way down!\n\n\n\n\n\n\n\nliterate programming,\n\n\nR package\n\n\n\n\nThe litR R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.\n\n\n\n\n\n\nNov 10, 2022\n\n\nJacob Bien, University of Southern California\n\n\n\n\n\n\n  \n\n\n\n\nPizza Party! Crossover event of NUMBATs and Graphics Group\n\n\n\n\n\n\n\nsocial\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2022\n\n\nGG & NUMBATs\n\n\n\n\n\n\n  \n\n\n\n\nThe ggdensity package\n\n\n\n\n\n\n\nR package\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2022\n\n\nJames Otto, Baylor University\n\n\n\n\n\n\n  \n\n\n\n\nMade with yarn, strings, and glue: Making R Markdown work better for you\n\n\n\n\n\n\n\nwatch-party\n\n\nR package\n\n\nR workflow\n\n\n\n\n\n\n\n\n\n\n\nOct 20, 2022\n\n\nAlison Hill, RStudio (presenting indirectly)\n\n\n\n\n\n\n  \n\n\n\n\nA discussion of color ranges\n\n\n\n\n\n\n\nvisual communication\n\n\ncolors\n\n\n\n\n\n\n\n\n\n\n\nSep 29, 2022\n\n\nIan Lyttle\n\n\n\n\n\n\n  \n\n\n\n\nTesting Charts for Accuracy and Interpretation\n\n\n\n\n\n\n\nvisual communication\n\n\nuser experiments\n\n\n\n\n\n\n\n\n\n\n\nSep 23, 2022\n\n\nKiegan Rice\n\n\n\n\n\n\nNo matching items"
+    "text": "In the Spring 2023 semester, we are meeting on Thursdays at 3:40 pm (Central): at ISU, we meet at 195 Durham (CSAFE suite), at UNL, we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools.\nContact Heike Hofmann, hofmann at iastate.edu, for access to the Zoom link.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nplotscaper\n\n\n\n\n\n\n\nR package\n\n\ninteractive graphics\n\n\n\n\n\n\n\n\n\n\n\nApr 6, 2023\n\n\nAdam Bartoniczek\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\nMar 30, 2023\n\n\nYuhang (Tom) Lin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2023\n\n\nAlexandra Arabio\n\n\n\n\n\n\n  \n\n\n\n\nDisplaying proportions and percentages\n\n\n\n\n\n\n\nuser experiments\n\n\npaper discussion\n\n\n\n\n\n\n\n\n\n\n\nMar 9, 2023\n\n\nHeike Hofmann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical graphics without R? – A quick look outside\n\n\n\n\n\n\n\ngraphics\n\n\npython\n\n\n\n\n\n\n\n\n\n\n\nMar 2, 2023\n\n\nGautham Venkatasubramanian\n\n\n\n\n\n\n  \n\n\n\n\nVisual psychophysics of simple graphical elements\n\n\n\n\n\n\n\npaper discussion\n\n\nuser experiments\n\n\n\n\n\n\n\n\n\n\n\nFeb 16, 2023\n\n\nHeike Hofmann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvaluating Perceptual Judgements on 3D Printed Bar Charts\n\n\n\n\n\n\n\nuser experiments\n\n\n\n\n\n\n\n\n\n\n\nFeb 9, 2023\n\n\nTyler Wiederich, UNL\n\n\n\n\n\n\n  \n\n\n\n\nSummarizing live traffic incidents in Iowa\n\n\n\n\n\n\n\nshiny app\n\n\n\n\n\n\n\n\n\n\n\nFeb 2, 2023\n\n\nGuillermo Basulto, InTrans, ISU\n\n\n\n\n\n\n  \n\n\n\n\nThe litr package - it’s turtles all the way down!\n\n\n\n\n\n\n\nliterate programming,\n\n\nR package\n\n\n\n\nThe litR R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.\n\n\n\n\n\n\nNov 10, 2022\n\n\nJacob Bien, University of Southern California\n\n\n\n\n\n\n  \n\n\n\n\nPizza Party! Crossover event of NUMBATs and Graphics Group\n\n\n\n\n\n\n\nsocial\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2022\n\n\nGG & NUMBATs\n\n\n\n\n\n\n  \n\n\n\n\nThe ggdensity package\n\n\n\n\n\n\n\nR package\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2022\n\n\nJames Otto, Baylor University\n\n\n\n\n\n\n  \n\n\n\n\nMade with yarn, strings, and glue: Making R Markdown work better for you\n\n\n\n\n\n\n\nwatch-party\n\n\nR package\n\n\nR workflow\n\n\n\n\n\n\n\n\n\n\n\nOct 20, 2022\n\n\nAlison Hill, RStudio (presenting indirectly)\n\n\n\n\n\n\n  \n\n\n\n\nA discussion of color ranges\n\n\n\n\n\n\n\nvisual communication\n\n\ncolors\n\n\n\n\n\n\n\n\n\n\n\nSep 29, 2022\n\n\nIan Lyttle\n\n\n\n\n\n\n  \n\n\n\n\nTesting Charts for Accuracy and Interpretation\n\n\n\n\n\n\n\nvisual communication\n\n\nuser experiments\n\n\n\n\n\n\n\n\n\n\n\nSep 23, 2022\n\n\nKiegan Rice\n\n\n\n\n\n\n  \n\n\n\n\nUsing Python in R through the Reticulate Package and its Integration with R Shiny\n\n\n\n\n\n\n\nDashboards\n\n\nR Shiny\n\n\nPython\n\n\nR package\n\n\n\n\n\n\n\n\n\n\n\nApr 28, 2022\n\n\nAlison Kleffner\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Dash (using Python) and Observable (Using JavaScript)\n\n\n\n\n\n\n\nDashboards\n\n\nR Shiny\n\n\nPython\n\n\nJavaScript\n\n\n\n\n\n\n\n\n\n\n\nApr 14, 2022\n\n\nIan Lyttle\n\n\n\n\n\n\n  \n\n\n\n\nExploring Rural Shrink Smart Through Guided Discovery Dashboards\n\n\n\n\n\n\n\nDashboards\n\n\nR Shiny\n\n\ncommunication\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2022\n\n\nDenise Bradford\n\n\n\n\n\n\n  \n\n\n\n\nApplying unsupervised and supervised learning methods to minimize risk to bald eagles from industrial wind turbines\n\n\n\n\n\n\n\nMachine Learning\n\n\ncollaboration\n\n\nspatial\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2022\n\n\nSilas Bergen\n\n\n\n\n\n\n  \n\n\n\n\nGoing Analog: Emerging from the Weeds and Broadening our Audience\n\n\n\n\n\n\n\nData Art\n\n\ndata art\n\n\nteaching\n\n\ncommunication\n\n\n\n\n\n\n\n\n\n\n\nMar 10, 2022\n\n\nSara Stoudt\n\n\n\n\n\n\n  \n\n\n\n\nAutomatic Image Captioning using Convolutional and Recurrent Neural Networks\n\n\n\n\n\n\n\nMachine Learning\n\n\nconvolutional neural network\n\n\nimage processing\n\n\ntext analysis\n\n\npython\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2022\n\n\nVed Piyush\n\n\n\n\n\n\n  \n\n\n\n\nMap matching in R\n\n\n\n\n\n\n\nR package\n\n\nmaps\n\n\nweb scraping\n\n\nAPI\n\n\n\n\n\n\n\n\n\n\n\nFeb 24, 2022\n\n\nAshirwad Barnwal\n\n\n\n\n\n\n  \n\n\n\n\nIntergalactic Time Travel: Estimation Pilot Study\n\n\n\n\n\n\n\nvisual inference\n\n\ninteractive graphics\n\n\ngraphical testing\n\n\n\n\n\n\n\n\n\n\n\nFeb 17, 2022\n\n\nEmily Robinson\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

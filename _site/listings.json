@@ -2,20 +2,28 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2023-04-06-plotscaper/index.html",
-      "/posts/2023-03-30-lin/index.html",
-      "/posts/2023-03-23-arabio/index.html",
-      "/posts/2023-03-09-paper-discussion/index.html",
-      "/posts/2023-03-02-Graphics-outside-of-R/index.html",
-      "/posts/2023-02-16-visual-psycho-physics-experiments/index.html",
-      "/posts/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html",
-      "/posts/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html",
-      "/posts/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html",
-      "/posts/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html",
-      "/posts/2022-11-10-the-ggdensity-package/index.html",
-      "/posts/2022-10-20-made-with-yarn-and-glue/index.html",
-      "/posts/2022-09-29-a-discussion-of-color-ranges/index.html",
-      "/posts/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html"
+      "/posts/2023-Spring/2023-04-06-plotscaper/index.html",
+      "/posts/2023-Spring/2023-03-30-lin/index.html",
+      "/posts/2023-Spring/2023-03-23-arabio/index.html",
+      "/posts/2023-Spring/2023-03-09-paper-discussion/index.html",
+      "/posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html",
+      "/posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html",
+      "/posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html",
+      "/posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html",
+      "/posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html",
+      "/posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html",
+      "/posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html",
+      "/posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html",
+      "/posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html",
+      "/posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html",
+      "/posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html",
+      "/posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html",
+      "/posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html",
+      "/posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html",
+      "/posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html",
+      "/posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html",
+      "/posts/2022-Spring/2022-02-24-Map-matching-in-R.html",
+      "/posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html"
     ]
   }
 ]
