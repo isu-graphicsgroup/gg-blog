@@ -1,0 +1,14 @@
+{
+  "hash": "fbded0c1052faeef87784d4402588e40",
+  "result": {
+    "markdown": "---\ntitle: \"Introduction to Dash (using Python) and Observable (Using JavaScript)\"\nauthor: \"Ian Lyttle\"\ndate: '2022-04-14'\nslug: introduction-to-dash-and-observable\ncategories: [\"Dashboards\", \"R Shiny\", \"Python\", \"JavaScript\"]\ndescription: ''\nimage: 2022-04-14-ian.png\n---\n\n\n![](/post/2022-04-14-ian.png)\n\nIf you have built a Shiny app, you have some familiarity with the concept of reactivity. For the next two graphics-groups, we'll talk about two alternatives to Shiny which also use reactivity: \n\n-\tDash, using Python\n-\tObservable, using JavaScript\n\nAs examples, we'll talk about how you can build the same app using all three tools. For the first session, we'll discuss Shiny and Dash.\n\nHere's a reference I'm working on: https://ijlyttle.github.io/reactivity-three-ways-quarto/. If you like, you can have a read through the Shiny chapter to set the stage. We'll focus on the Python chapter this Thursday.\n\nAs well, I have built an RStudio Cloud project that ***you*** can use on Thursday to try out the Dash app -- all you would need to do is sign up for the ***free*** level of RStudio Cloud: https://rstudio.cloud/plans/free.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
