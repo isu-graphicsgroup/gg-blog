@@ -1,0 +1,14 @@
+{
+  "hash": "8313707269a01d7e2364caa5e7931c5e",
+  "result": {
+    "markdown": "---\ntitle: \"Intergalactic Time Travel: Estimation Pilot Study\"\nauthor: \"Emily Robinson\"\ndate: '2022-02-17'\nslug: intergalactic-time-travel-estimation-pilot-study\ncategories: [\"visual inference\"]\ntags: [\"interactive graphics\", \"graphical testing\"]\ndescription: ''\nimages:\n  - /post/2022-02-17-emily.png\nurl_slides:\n  - https://earobinson95.github.io/presentations/ISU-Graphics-Group/2022-02-16-intergalactic-population-estimation/index.html#1\n---\n\n\n![](/post/2022-02-17-emily.png)\nQuestioning matters! The last graphical test for my research involves graph comprehension and extracting information from the chart. My talk will involve an interactive portion, inviting you to participate and provide feedback on the study. We will then discuss important aspects of graph comprehension and how they relate to selecting questions for the literal reading of data, reading between the data, and reading beyond the data. I will also share my Wikipedia literature review on intergalactic time conversions.\n\nSlides for this talk can be found [here](https://earobinson95.github.io/presentations/ISU-Graphics-Group/2022-02-16-intergalactic-population-estimation/index.html#1).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

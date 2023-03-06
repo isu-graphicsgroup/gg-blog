@@ -1,0 +1,14 @@
+{
+  "hash": "e186b6ffddf3585fac3a6c31880d534c",
+  "result": {
+    "markdown": "---\ntitle: \"Going Analog: Emerging from the Weeds and Broadening our Audience\"\nauthor: \"Sara Stoudt\"\ndate: '2022-03-10'\nslug: going-analog-emerging-from-the-weeds-and-broadening-our-audience\ncategories: [\"Data Art\", \"data art\", \"teaching\", \"communication\"]\ndescription: ''\nimage: 2022-03-10-sara.jpg\n---\n\n\n![](/post/2022-03-10-sara.jpg)\n\nWe could all use a break from our manuscripts (and our screens). Can thinking about our work in a new way help us re-energize? In this talk I'll share some non-traditional data products that inspire me, some work I've been involved with inspired by these new mediums (including work with students), and some reflections about how expanding our sense of what 'counts' as a research product can help us reach a broader audience. We'll even make zines (a DIY blend of text and drawings) that you can take away from the session. \n\n+ **Materials needed:** sheet of paper, writing utensil\n+ **Optional materials:** colored writing utensils, scissors\n\nSee slides [here](https://docs.google.com/presentation/d/1VLziZFXUtiYsI1c5vcT5wHrAqNuE6zVmb1n-eugPw8A/edit#slide=id.p).\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
