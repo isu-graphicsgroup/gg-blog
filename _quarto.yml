@@ -3,8 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "GG"
-  favicon: GG-hex-tiny.png
+  title: |
+    ![](GG-hex-small.png)
+  favicon: |
+    ![](GG-hex-tiny.png)
   navbar:
     logo: |
       ![](GG-hex-small.png)
