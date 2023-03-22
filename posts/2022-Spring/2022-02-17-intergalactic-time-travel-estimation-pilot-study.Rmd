@@ -3,7 +3,7 @@ title: "Intergalactic Time Travel: Estimation Pilot Study"
 author: "Emily Robinson"
 date: '2022-02-17'
 slug: intergalactic-time-travel-estimation-pilot-study
-categories: ["visual inference", "interactive graphics", "graphical testing"]
+categories: ["visual inference", "interactive graphics", "User experiment"]
 description: ''
 image: 2022-02-17-emily.png
 ---

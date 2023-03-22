@@ -3,7 +3,7 @@ title: "Going Analog: Emerging from the Weeds and Broadening our Audience"
 author: "Sara Stoudt"
 date: '2022-03-10'
 slug: going-analog-emerging-from-the-weeds-and-broadening-our-audience
-categories: ["Data Art", "data art", "teaching", "communication"]
+categories: ["Data Art", "teaching", "communication"]
 description: ''
 image: 2022-03-10-sara.jpg
 ---

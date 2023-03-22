@@ -4,7 +4,7 @@ author: Guillermo Basulto, InTrans, ISU
 date: '2023-02-02'
 slug: summarizing-live-traffic-incidents-in-iowa
 categories:
-  - shiny app
+  - Shiny app
 description: ''
 image: traffic-management.png
 ---

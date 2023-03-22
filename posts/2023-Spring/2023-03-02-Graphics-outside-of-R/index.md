@@ -4,7 +4,7 @@ author: Gautham Venkatasubramanian
 date: '2023-03-02'
 categories:
   - graphics
-  - python
+  - Python
 description: ''
 ---
 

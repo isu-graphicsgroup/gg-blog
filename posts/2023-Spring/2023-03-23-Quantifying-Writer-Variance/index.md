@@ -3,7 +3,7 @@ title: "Quantifying Writer Variance Through Rainbow Triangle Graph Decomposition
 author: Alexandra Arabio
 date: '2023-03-23'
 categories: 
-  - shiny app
+  - Shiny app
   - graphics design
 image: allie-thumbnail-image.png
 description: |
