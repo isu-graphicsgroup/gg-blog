@@ -3,13 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Graphics Group"
-  image: GG-hex-small.png
+  title: "GG"
   favicon: GG-hex-tiny.png
   navbar:
+    logo: |
+      ![](GG-hex-small.png)
     pinned: true
-    right:
+    left: 
       - about.qmd
+    right:
       - icon: github
         href: https://github.com/isu-graphicsgroup
       

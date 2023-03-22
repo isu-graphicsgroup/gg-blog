@@ -3,7 +3,11 @@ title: "Using Python in R through the Reticulate Package and its Integration wit
 author: "Alison Kleffner"
 date: '2022-04-28'
 slug: using-python-in-r
-categories: ["Dashboards", "R Shiny", "Python", "R package"]
+categories: 
+  - Dashboards
+  - Shiny App
+  - Python
+  - R package
 description: ''
 image: 2022-04-28-alison.png
 ---

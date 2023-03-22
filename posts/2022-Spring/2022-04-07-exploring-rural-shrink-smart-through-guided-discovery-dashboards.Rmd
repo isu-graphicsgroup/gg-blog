@@ -3,7 +3,10 @@ title: "Exploring Rural Shrink Smart Through Guided Discovery Dashboards"
 author: "Denise Bradford"
 date: '2022-04-07'
 slug: exploring-rural-shrink-smart-through-guided-discovery-dashboards
-categories: ["Dashboards", "R Shiny", "communication"]
+categories: 
+  - Dashboards
+  - Shiny App
+  - communication
 description: ''
 image: 2022-04-07-denise.png
 ---

@@ -3,12 +3,16 @@ title: "Introduction to Dash (using Python) and Observable (Using JavaScript)"
 author: "Ian Lyttle"
 date: '2022-04-14'
 slug: introduction-to-dash-and-observable
-categories: ["Dashboards", "R Shiny", "Python", "JavaScript"]
+categories: 
+  - Dashboards
+  - Shiny App
+  - Python
+  - JavaScript
 description: ''
 image: 2022-04-14-ian.png
 ---
 
-![](/post/2022-04-14-ian.png)
+![](2022-04-14-ian.png)
 
 If you have built a Shiny app, you have some familiarity with the concept of reactivity. For the next two graphics-groups, we'll talk about two alternatives to Shiny which also use reactivity: 
 

@@ -5,7 +5,7 @@ date: '2022-11-10'
 slug: the-litr-package-it-s-turtles-all-the-way-down
 description: 'The litR R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.'
 categories:
-  - literate programming, 
+  - literate programming
   - R package
 image: 2022-10-27-jacob.png
 ---

@@ -8,7 +8,9 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: FALSE
+titlegraphic: |
+  ![](colored-pencils.png)
 ---
 In the Spring 2023 semester, we are meeting on Thursdays at 3:40 pm (Central):
 at ISU, we meet at 195 Durham (CSAFE suite), at UNL,  we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools. 

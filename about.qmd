@@ -1,5 +1,5 @@
 ---
-title: "About the Graphics Group"
+title: "Graphics Group"
 image: gigi-bake-small.png
 about:
   template: jolla
@@ -8,7 +8,6 @@ about:
     - icon: github
       text: GG on Github
       href: https://github.com/isu-graphicsgroup
-
 ---
 
 ### We like to talk about graphics 
