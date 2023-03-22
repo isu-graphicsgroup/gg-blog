@@ -4,12 +4,12 @@ project:
 
 website:
   title: |
-    ![](GG-hex-small.png)
+    ![](/GG-hex-small.png)
   favicon: |
     ![](GG-hex-tiny.png)
   navbar:
     logo: |
-      ![](GG-hex-small.png)
+      ![](/GG-hex-small.png)
     pinned: true
     left: 
       - about.qmd
