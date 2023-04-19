@@ -1,0 +1,16 @@
+---
+title: A shiny Model Buildr for Psychophysics Data
+author: Wangqian Ju
+date: '2023-04-20'
+categories:
+  - psycho-metrics
+  - shiny
+  - model fitting
+  - user experiment
+image: model-buildr.png 
+description: | 
+  User experiments are essential for informing researchers what an audience sees in a chart. User experiments are generally quite expensive in monetary value and in the time spent getting data. We must make the most out of the data we get from participants. Statistically, the best practice for data with repeated measurements is using (Generalized) Linear Mixed Effects Models (GLME).
+---
+
+![](model-buildr.png)
+These models increase the statistical power, produce more reliable estimates, and provide better interpretability for population-level and individual-level effects. However, in the literature, a two-stage approach for analyzing results from user experiments is commonly used. The drawbacks and temptations of this two-stage approach will be discussed. This presentation will present a shiny app aiming to provide a smooth transition for psychometric researchers from the two-stage approach to the GLME approach. The shiny app is still under development. Any suggestions are welcome!  
