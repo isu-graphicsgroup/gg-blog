@@ -1,0 +1,19 @@
+---
+title: Testing website designs and reports with screen readers
+author: Ian Lyttle
+date: '2023-04-20'
+categories:
+  - accessibility
+  - websites
+image: screen-reader.png
+description: | 
+  Designing websites (Quarto reports) and visualizations to be accessible becomes much more challenging, and rewarding, when you test your work using a screen-reader.
+---
+
+![](screen-reader.png)
+
+
+
+
+This will be a walk-through of basic operation of a screen-reader, with some tips on how you can design more-accessible web pages. We will also look at Olli, a tool for extracting a text from visualization-specs, for use in screen readers.
+
