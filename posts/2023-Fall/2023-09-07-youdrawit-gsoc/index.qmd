@@ -1,5 +1,5 @@
 ---
-title: Testing website designs and reports with screen readers
+title: The youdrawitR package - a GSOC experience
 author: Dillon Murphy and Emily Robinson
 date: '2023-09-07'
 categories:
@@ -14,4 +14,4 @@ description: |
 
 This summer, I bundled the ‘You Draw It’ feature into an Rpackage and added additional functionality to the tool. In this presentation, I will provide an overview of my GSOC experience, the functions in the package, and give you a chance to test it out and code yourself! Please bring your computer.
 
-Slides: https://dillonmurphy04.github.io/GraphicsGroupYouDrawIt/#/title-slide
+Slides: [](https://dillonmurphy04.github.io/GraphicsGroupYouDrawIt/#/title-slide)
