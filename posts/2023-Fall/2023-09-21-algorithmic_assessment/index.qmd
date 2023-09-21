@@ -1,0 +1,18 @@
+---
+title: Algorithmic assessment of striation similarity between wire cuts
+author: Tom Yuhang Lin
+date: '2023-09-21'
+categories:
+  - forensic statistics
+  - striations
+image: wires.png
+description: | 
+  The comparative evaluation of aluminum wire cuts holds considerable significance within the field of forensic science. Nonetheless, there exists an absence of a systematic algorithmic framework for assessing their degree of similarity. In our recently introduced algorithm, we address this void by undertaking an examination of surface cuts presented in the x3p format. 
+
+---
+
+![](wires.png)
+
+The outcome of this algorithmic procedure consists of cross-correlation values, which serve as measurements for the similarity. In order to enhance the precision of this process, a sequence of multiple procedural steps has been integrated into the algorithmic pipeline. These steps encompass various methodologies, including imputation, Hough transformation, and maximum likelihood estimation.
+
+The package to be: [](https://yuhangtom.github.io/wire/)
