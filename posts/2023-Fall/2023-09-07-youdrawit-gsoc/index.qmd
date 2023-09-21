@@ -3,8 +3,9 @@ title: The youdrawitR package - a GSOC experience
 author: Dillon Murphy and Emily Robinson
 date: '2023-09-07'
 categories:
-  - accessibility
-  - websites
+  - R package
+  - GSOC
+  - data visualization
 image: cats.png
 description: | 
   You Draw It’ is a feature that allows users to interact with a chart directly by drawing a line on their computer screen with a mouse. Originally introduced by the New York Times in 2015 for the purpose of interactive reading, we aimed to adapt and demonstrate the use of the ‘You Draw It’ method as a tool for interactive testing of graphics. 
