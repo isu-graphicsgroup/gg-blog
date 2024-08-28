@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title> - </title>
+<title>quarto-input59c163c36b7db9fc – ![](/GG-hex-small.png)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,8 +63,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -92,8 +100,35 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -102,9 +137,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./![](/GG-hex-small.png)
 " alt="" class="navbar-logo">
@@ -114,26 +149,26 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">Graphics Group</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Graphics Group</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/isu-graphicsgroup" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/isu-graphicsgroup"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -154,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -162,7 +197,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>In the Fall 2023 semester, we are meeting on Thursdays at 3:05 pm (Central): at ISU, we meet in 2113 Snedecor (the big conference room), at UNL, we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools.</p>
 <p>Contact Heike Hofmann, hofmann at iastate.edu, for access to the Zoom link.</p>
@@ -173,19 +210,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Forensics,Data Visualizations" data-listing-date-sort="1695272400000" data-listing-file-modified-sort="1695314350196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="Forensics,Data Visualizations" data-listing-date-sort="1695272400000" data-listing-file-modified-sort="1695314350196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
 <div class="thumbnail">
-<p><a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html"> <img src="./posts/2023-Fall/2023-09-21-algorithmic_assessment/wires.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external"></a></p><a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Fall/2023-09-21-algorithmic_assessment/wires.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html">
 <h3 class="no-anchor listing-title">
-Algorithmic assessment of striation similarity between wire cuts
+<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external">Algorithmic assessment of striation similarity between wire cuts</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Forensics'); return false;">
 Forensics
@@ -194,14 +231,12 @@ Forensics
 Data Visualizations
 </div>
 </div>
-<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html">
 <div class="listing-description">
-<p>The comparative evaluation of aluminum wire cuts holds considerable significance within the field of forensic science. Nonetheless, there exists an absence of a systematic algorithmic framework for assessing their degree of similarity. In our recently introduced algorithm, we address this void by undertaking an examination of surface cuts presented in the x3p format.</p>
+<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external">The comparative evaluation of aluminum wire cuts holds considerable significance within the field of forensic science. Nonetheless, there exists an absence of a systematic algorithmic framework for assessing their degree of similarity. In our recently introduced algorithm, we address this void by undertaking an examination of surface cuts presented in the x3p format. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html">
+<a href="./posts/2023-Fall/2023-09-21-algorithmic_assessment/index.html" class="no-external">
 <div class="listing-date">
 Sep 21, 2023
 </div>
@@ -211,19 +246,19 @@ Tom Yuhang Lin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="R package,GSOC,Shiny App" data-listing-date-sort="1694062800000" data-listing-file-modified-sort="1695314299749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="R package,GSOC,Shiny App" data-listing-date-sort="1694062800000" data-listing-file-modified-sort="1695314299749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
 <div class="thumbnail">
-<p><a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html"> <img src="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/cats.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external"></a></p><a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/cats.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html">
 <h3 class="no-anchor listing-title">
-The youdrawitR package - a GSOC experience
+<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external">The youdrawitR package - a GSOC experience</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R package'); return false;">
 R package
@@ -235,14 +270,12 @@ GSOC
 Shiny App
 </div>
 </div>
-<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html">
 <div class="listing-description">
-<p>You Draw It’ is a feature that allows users to interact with a chart directly by drawing a line on their computer screen with a mouse. Originally introduced by the New York Times in 2015 for the purpose of interactive reading, we aimed to adapt and demonstrate the use of the ‘You Draw It’ method as a tool for interactive testing of graphics.</p>
+<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external">You Draw It’ is a feature that allows users to interact with a chart directly by drawing a line on their computer screen with a mouse. Originally introduced by the New York Times in 2015 for the purpose of interactive reading, we aimed to adapt and demonstrate the use of the ‘You Draw It’ method as a tool for interactive testing of graphics. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html">
+<a href="./posts/2023-Fall/2023-09-07-youdrawit-gsoc/index.html" class="no-external">
 <div class="listing-date">
 Sep 7, 2023
 </div>
@@ -252,19 +285,19 @@ Dillon Murphy and Emily Robinson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="accessibility,websites" data-listing-date-sort="1681966800000" data-listing-file-modified-sort="1682349546839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="accessibility,websites" data-listing-date-sort="1681966800000" data-listing-file-modified-sort="1682349546839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html"> <img src="./posts/2023-Spring/2023-04-27-designing-websites/screen-reader.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-04-27-designing-websites/screen-reader.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html">
 <h3 class="no-anchor listing-title">
-Testing website designs and reports with screen readers
+<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external">Testing website designs and reports with screen readers</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('accessibility'); return false;">
 accessibility
@@ -273,14 +306,12 @@ accessibility
 websites
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html">
 <div class="listing-description">
-<p>Designing websites (Quarto reports) and visualizations to be accessible becomes much more challenging, and rewarding, when you test your work using a screen-reader.</p>
+<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external">Designing websites (Quarto reports) and visualizations to be accessible becomes much more challenging, and rewarding, when you test your work using a screen-reader. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html">
+<a href="./posts/2023-Spring/2023-04-27-designing-websites/index.html" class="no-external">
 <div class="listing-date">
 Apr 20, 2023
 </div>
@@ -290,19 +321,19 @@ Ian Lyttle
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="psycho-metrics,shiny,model fitting,user experiment" data-listing-date-sort="1681966800000" data-listing-file-modified-sort="1681925273755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="psycho-metrics,shiny,model fitting,user experiment" data-listing-date-sort="1681966800000" data-listing-file-modified-sort="1681925273755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html"> <img src="./posts/2023-Spring/2023-04-20-model-buildr/model-buildr.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-04-20-model-buildr/model-buildr.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html">
 <h3 class="no-anchor listing-title">
-A shiny Model Buildr for Psychophysics Data
+<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external">A shiny Model Buildr for Psychophysics Data</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('psycho-metrics'); return false;">
 psycho-metrics
@@ -317,14 +348,12 @@ model fitting
 user experiment
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html">
 <div class="listing-description">
-<p>User experiments are essential for informing researchers what an audience sees in a chart. User experiments are generally quite expensive in monetary value and in the time spent getting data. We must make the most out of the data we get from participants. Statistically, the best practice for data with repeated measurements is using (Generalized) Linear Mixed Effects Models (GLME).</p>
+<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external">User experiments are essential for informing researchers what an audience sees in a chart. User experiments are generally quite expensive in monetary value and in the time spent getting data. We must make the most out of the data we get from participants. Statistically, the best practice for data with repeated measurements is using (Generalized) Linear Mixed Effects Models (GLME). </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html">
+<a href="./posts/2023-Spring/2023-04-20-model-buildr/index.html" class="no-external">
 <div class="listing-date">
 Apr 20, 2023
 </div>
@@ -334,19 +363,19 @@ Wangqian Ju
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="forensics,user experiment" data-listing-date-sort="1681362000000" data-listing-file-modified-sort="1681338268475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="forensics,user experiment" data-listing-date-sort="1681362000000" data-listing-file-modified-sort="1681338268475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html"> <img src="./posts/2023-Spring/2023-04-14-jury-perception/rachel.jpeg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-04-14-jury-perception/rachel.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html">
 <h3 class="no-anchor listing-title">
-Jury Perception of Bullet Matching Algorithms and Demonstrative Evidence
+<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external">Jury Perception of Bullet Matching Algorithms and Demonstrative Evidence</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('forensics'); return false;">
 forensics
@@ -355,14 +384,12 @@ forensics
 user experiment
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html">
 <div class="listing-description">
-<p>Subjective pattern comparison has been subject to increased scrutiny by the courts and by the general public, resulting in an increased interest in pattern comparison algorithms that provide quantitative assessments of similarity for use by forensic scientists. While these algorithms would mark an improvement over current subjective comparison methods, individuals without a statistical background may struggle with the statistical concepts and language necessary for describing algorithmic methods.</p>
+<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external">Subjective pattern comparison has been subject to increased scrutiny by the courts and by the general public, resulting in an increased interest in pattern comparison algorithms that provide quantitative assessments of similarity for use by forensic scientists. While these algorithms would mark an improvement over current subjective comparison methods, individuals without a statistical background may struggle with the statistical concepts and language necessary for describing algorithmic methods. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html">
+<a href="./posts/2023-Spring/2023-04-14-jury-perception/index.html" class="no-external">
 <div class="listing-date">
 Apr 13, 2023
 </div>
@@ -372,19 +399,19 @@ Rachel Rogers
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="R package,interactive graphics" data-listing-date-sort="1680757200000" data-listing-file-modified-sort="1678084261384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="R package,interactive graphics" data-listing-date-sort="1680757200000" data-listing-file-modified-sort="1678084261384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html">
 <h3 class="no-anchor listing-title">
-plotscaper
+<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external">plotscaper</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R package'); return false;">
 R package
@@ -393,14 +420,12 @@ R package
 interactive graphics
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html">
 <div class="listing-description">
-
+<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external"></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html">
+<a href="./posts/2023-Spring/2023-04-06-plotscaper/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2023
 </div>
@@ -410,32 +435,30 @@ Adam Bartoniczek
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Forensics" data-listing-date-sort="1680152400000" data-listing-file-modified-sort="1679938668667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="Forensics" data-listing-date-sort="1680152400000" data-listing-file-modified-sort="1679938668667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html">
 <h3 class="no-anchor listing-title">
-Striation similarity assessment between wire cuts with functional data analysis
+<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external">Striation similarity assessment between wire cuts with functional data analysis</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Forensics'); return false;">
 Forensics
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html">
 <div class="listing-description">
-Automatic matching algorithms for assessing the similarity between striation marks have been investigated for bullet lands and some tool marks, such as screwdrivers. Here…
+<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external">Automatic matching algorithms for assessing the similarity between striation marks have been investigated for bullet lands and some tool marks, such as screwdrivers. Here…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html">
+<a href="./posts/2023-Spring/2023-03-30-Striation-similarity-assessment/index.html" class="no-external">
 <div class="listing-date">
 Mar 30, 2023
 </div>
@@ -445,19 +468,19 @@ Yuhang (Tom) Lin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Shiny app,graphics design" data-listing-date-sort="1679547600000" data-listing-file-modified-sort="1679468712507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="Shiny app,graphics design" data-listing-date-sort="1679547600000" data-listing-file-modified-sort="1679468712507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html"> <img src="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/allie-thumbnail-image.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/allie-thumbnail-image.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html">
 <h3 class="no-anchor listing-title">
-Quantifying Writer Variance Through Rainbow Triangle Graph Decomposition of the Common Word ‘the’
+<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external">Quantifying Writer Variance Through Rainbow Triangle Graph Decomposition of the Common Word ‘the’</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Shiny app'); return false;">
 Shiny app
@@ -466,14 +489,12 @@ Shiny app
 graphics design
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html">
 <div class="listing-description">
-<p>Handwriting comparative analysis has recently been criticized based off the subjective nature of traditional examinations. To support traditional examination with objective measures, this project provides results from a study where features of handwriting are examined through point decomposition and rainbow triangulation. …</p>
+<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external">Handwriting comparative analysis has recently been criticized based off the subjective nature of traditional examinations. To support traditional examination with objective measures, this project provides results from a study where features of handwriting are examined through point decomposition and rainbow triangulation. … </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html">
+<a href="./posts/2023-Spring/2023-03-23-Quantifying-Writer-Variance/index.html" class="no-external">
 <div class="listing-date">
 Mar 23, 2023
 </div>
@@ -483,19 +504,19 @@ Alexandra Arabio
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="user experiments,paper discussion" data-listing-date-sort="1678341600000" data-listing-file-modified-sort="1678084553641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="user experiments,paper discussion" data-listing-date-sort="1678341600000" data-listing-file-modified-sort="1678084553641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html"> <img src="./posts/2023-Spring/2023-03-09-paper-discussion/spence-lewandowsky.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-03-09-paper-discussion/spence-lewandowsky.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html">
 <h3 class="no-anchor listing-title">
-Displaying proportions and percentages
+<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external">Displaying proportions and percentages</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('user experiments'); return false;">
 user experiments
@@ -504,14 +525,12 @@ user experiments
 paper discussion
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html">
 <div class="listing-description">
-We will discuss another paper by Ian Spence - this time we focus on the 1991 paper “Displaying proportions and percentages”…
+<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external">We will discuss another paper by Ian Spence - this time we focus on the 1991 paper “Displaying proportions and percentages” co-authored with Stephan Lewandowsky. Again, the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html">
+<a href="./posts/2023-Spring/2023-03-09-paper-discussion/index.html" class="no-external">
 <div class="listing-date">
 Mar 9, 2023
 </div>
@@ -521,19 +540,19 @@ Heike Hofmann
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="graphics,Python" data-listing-date-sort="1677736800000" data-listing-file-modified-sort="1679467044034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="graphics,Python" data-listing-date-sort="1677736800000" data-listing-file-modified-sort="1679467044034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html">
 <h3 class="no-anchor listing-title">
-Statistical graphics without R? – A quick look outside
+<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external">Statistical graphics without R? – A quick look outside</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('graphics'); return false;">
 graphics
@@ -542,14 +561,12 @@ graphics
 Python
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html">
 <div class="listing-description">
-The grammar of graphics (Wilkinson 1999, 2005) provides a declarative, object-oriented framework to visualize statistical information as a collection of objects. It is noted…<br>
+<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external">The grammar of graphics (Wilkinson 1999, 2005) provides a declarative, object-oriented framework to visualize statistical information as a collection of objects. It is noted…<br></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html">
+<a href="./posts/2023-Spring/2023-03-02-Graphics-outside-of-R/index.html" class="no-external">
 <div class="listing-date">
 Mar 2, 2023
 </div>
@@ -559,19 +576,19 @@ Gautham Venkatasubramanian
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="paper discussion,user experiments" data-listing-date-sort="1676527200000" data-listing-file-modified-sort="1678084261373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="paper discussion,user experiments" data-listing-date-sort="1676527200000" data-listing-file-modified-sort="1678084261373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html"> <img src="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/ian-spence.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/ian-spence.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html">
 <h3 class="no-anchor listing-title">
-Visual psychophysics of simple graphical elements
+<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external">Visual psychophysics of simple graphical elements</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('paper discussion'); return false;">
 paper discussion
@@ -580,14 +597,12 @@ paper discussion
 user experiments
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html">
 <div class="listing-description">
-We will discuss Ian Spence’s 1990 paper “Visual Psychophysics of simple graphical elements”. Make sure to read (or at least read over) the paper below.
+<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external">We will discuss Ian Spence’s 1990 paper “Visual Psychophysics of simple graphical elements”. Make sure to read (or at least read over) the paper below.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html">
+<a href="./posts/2023-Spring/2023-02-16-visual-psycho-physics-experiments/index.html" class="no-external">
 <div class="listing-date">
 Feb 16, 2023
 </div>
@@ -597,32 +612,30 @@ Heike Hofmann
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="user experiments" data-listing-date-sort="1675922400000" data-listing-file-modified-sort="1679943335112" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="user experiments" data-listing-date-sort="1675922400000" data-listing-file-modified-sort="1679943335112" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html"> <p class="card-img-top"><img src="posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/3d-prints-ab.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/3d-prints-ab.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html">
 <h3 class="no-anchor listing-title">
-Evaluating Perceptual Judgements on 3D Printed Bar Charts
+<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external">Evaluating Perceptual Judgements on 3D Printed Bar Charts</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('user experiments'); return false;">
 user experiments
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html">
 <div class="listing-description">
-It is well documented that the accuracy of data comparisons is worse for 3D charts, but these studies are almost entirely focused on 2D projections. In this week’s meeting…
+<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external">It is well documented that the accuracy of data comparisons is worse for 3D charts, but these studies are almost entirely focused on 2D projections. In this week’s meeting…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html">
+<a href="./posts/2023-Spring/2023-02-09-evaluating-perceptual-judgements-on-3d-printed-bar-charts/index.html" class="no-external">
 <div class="listing-date">
 Feb 9, 2023
 </div>
@@ -632,32 +645,30 @@ Tyler Wiederich, UNL
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Shiny app" data-listing-date-sort="1675317600000" data-listing-file-modified-sort="1679465510533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="12" data-categories="Shiny app" data-listing-date-sort="1675317600000" data-listing-file-modified-sort="1679465510533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
 <div class="thumbnail">
-<p><a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html"> <img src="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/traffic-management.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external"></a></p><a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/traffic-management.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html">
 <h3 class="no-anchor listing-title">
-Summarizing live traffic incidents in Iowa
+<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external">Summarizing live traffic incidents in Iowa</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Shiny app'); return false;">
 Shiny app
 </div>
 </div>
-<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html">
 <div class="listing-description">
-Traffic incidents in Iowa are constantly reported through the Advanced Traffic Management System (ATMS). On average, over 100 traffic incidents are daily incidents are…
+<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external">Traffic incidents in Iowa are constantly reported through the Advanced Traffic Management System (ATMS). On average, over 100 traffic incidents are daily incidents are…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html">
+<a href="./posts/2023-Spring/2023-02-02-summarizing-live-traffic-incidents-in-iowa/index.html" class="no-external">
 <div class="listing-date">
 Feb 2, 2023
 </div>
@@ -667,19 +678,19 @@ Guillermo Basulto, InTrans, ISU
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="literate programming,R package" data-listing-date-sort="1668060000000" data-listing-file-modified-sort="1679384422498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="13" data-categories="literate programming,R package" data-listing-date-sort="1668060000000" data-listing-file-modified-sort="1679384422498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
 <div class="thumbnail">
-<p><a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html"> <img src="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/2022-10-27-jacob.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external"></a></p><a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/2022-10-27-jacob.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html">
 <h3 class="no-anchor listing-title">
-The litr package - it’s turtles all the way down!
+<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external">The litr package - it’s turtles all the way down!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('literate programming'); return false;">
 literate programming
@@ -688,14 +699,12 @@ literate programming
 R package
 </div>
 </div>
-<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html">
 <div class="listing-description">
-<p>The litR R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.</p>
+<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external">The litR R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html">
+<a href="./posts/2022-Fall/2022-11-10-the-litr-package-it-s-turtles-all-the-way-down/index.html" class="no-external">
 <div class="listing-date">
 Nov 10, 2022
 </div>
@@ -705,32 +714,30 @@ Jacob Bien, University of Southern California
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="social" data-listing-date-sort="1668060000000" data-listing-file-modified-sort="1678084261365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="14" data-categories="social" data-listing-date-sort="1668060000000" data-listing-file-modified-sort="1678084261365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="thumbnail">
-<p><a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html"> <img src="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/2022-11-10-heike.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external"></a></p><a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/2022-11-10-heike.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html">
 <h3 class="no-anchor listing-title">
-Pizza Party! Crossover event of NUMBATs and Graphics Group
+<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external">Pizza Party! Crossover event of NUMBATs and Graphics Group</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('social'); return false;">
 social
 </div>
 </div>
-<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html">
 <div class="listing-description">
-This week are going to have a global crossover shared meeting, with Iowa/Nebraska Graphics Group and Australian NUMBATs, with pizza! We are going to talk about favorite R…
+<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external">This week are going to have a global crossover shared meeting, with Iowa/Nebraska Graphics Group and Australian NUMBATs, with pizza! We are going to talk about favorite R…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html">
+<a href="./posts/2022-Fall/2022-11-10-pizza-party-crossover-event-of-numbats-and-graphics-group/index.html" class="no-external">
 <div class="listing-date">
 Nov 10, 2022
 </div>
@@ -740,32 +747,30 @@ GG &amp; NUMBATs
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="R package" data-listing-date-sort="1668060000000" data-listing-file-modified-sort="1678084261369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="15" data-categories="R package" data-listing-date-sort="1668060000000" data-listing-file-modified-sort="1678084261369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <div class="thumbnail">
-<p><a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html"> <img src="https://jamesotto852.github.io/ggdensity/logo.svg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external"></a></p><a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external">
+<p><img loading="lazy" src="https://jamesotto852.github.io/ggdensity/logo.svg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html">
 <h3 class="no-anchor listing-title">
-The ggdensity package
+<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external">The ggdensity package</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R package'); return false;">
 R package
 </div>
 </div>
-<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html">
 <div class="listing-description">
-A popular strategy for visually summarizing bivariate data is plotting contours of an estimated density surface. Most commonly, the density is estimated with a kernel…
+<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external">A popular strategy for visually summarizing bivariate data is plotting contours of an estimated density surface. Most commonly, the density is estimated with a kernel…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html">
+<a href="./posts/2022-Fall/2022-11-10-the-ggdensity-package/index.html" class="no-external">
 <div class="listing-date">
 Nov 10, 2022
 </div>
@@ -775,19 +780,19 @@ James Otto, Baylor University
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="watch-party,R package,R workflow" data-listing-date-sort="1666242000000" data-listing-file-modified-sort="1678084261360" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="16" data-categories="watch-party,R package,R workflow" data-listing-date-sort="1666242000000" data-listing-file-modified-sort="1678084261360" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
 <div class="thumbnail">
-<p><a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html"> <img src="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/alison.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external"></a></p><a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/alison.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html">
 <h3 class="no-anchor listing-title">
-Made with yarn, strings, and glue: Making R Markdown work better for you
+<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external">Made with yarn, strings, and glue: Making R Markdown work better for you</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('watch-party'); return false;">
 watch-party
@@ -799,14 +804,12 @@ R package
 R workflow
 </div>
 </div>
-<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html">
 <div class="listing-description">
-This week we will watch Alison Hill talk with the Cleveland R User group about making R Markdown a better integrated tool for your work. Alison Hill is a data scientist…
+<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external">This week we will watch Alison Hill talk with the Cleveland R User group about making R Markdown a better integrated tool for your work. Alison Hill is a data scientist…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html">
+<a href="./posts/2022-Fall/2022-10-20-made-with-yarn-and-glue/index.html" class="no-external">
 <div class="listing-date">
 Oct 20, 2022
 </div>
@@ -816,19 +819,19 @@ Alison Hill, RStudio (presenting indirectly)
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="visual communication,colors" data-listing-date-sort="1664427600000" data-listing-file-modified-sort="1678084261353" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="17" data-categories="visual communication,colors" data-listing-date-sort="1664427600000" data-listing-file-modified-sort="1678084261353" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <div class="thumbnail">
-<p><a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html"> <img src="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/2022-09-29-ian.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external"></a></p><a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/2022-09-29-ian.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html">
 <h3 class="no-anchor listing-title">
-A discussion of color ranges
+<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external">A discussion of color ranges</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('visual communication'); return false;">
 visual communication
@@ -837,14 +840,12 @@ visual communication
 colors
 </div>
 </div>
-<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html">
 <div class="listing-description">
-Thi…
+<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external">This is a discussion of color spaces, optimizing color ranges for aesthetics, light and dark mode, while establishing accessibility and the associated compromises we have to…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html">
+<a href="./posts/2022-Fall/2022-09-29-a-discussion-of-color-ranges/index.html" class="no-external">
 <div class="listing-date">
 Sep 29, 2022
 </div>
@@ -854,19 +855,19 @@ Ian Lyttle
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="visual communication,user experiments" data-listing-date-sort="1663909200000" data-listing-file-modified-sort="1678084261351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="18" data-categories="visual communication,user experiments" data-listing-date-sort="1663909200000" data-listing-file-modified-sort="1678084261351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
 <div class="thumbnail">
-<p><a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html"> <img src="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/2022-09-23-kiegan.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external"></a></p><a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/2022-09-23-kiegan.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html">
 <h3 class="no-anchor listing-title">
-Testing Charts for Accuracy and Interpretation
+<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external">Testing Charts for Accuracy and Interpretation</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('visual communication'); return false;">
 visual communication
@@ -875,14 +876,12 @@ visual communication
 user experiments
 </div>
 </div>
-<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html">
 <div class="listing-description">
-The creation of a data visualization depends on both analytic design and graphic design. Analytic designs focus on the structure of a chart and how data are encoded onto…<br>
+<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external">The creation of a data visualization depends on both analytic design and graphic design. Analytic designs focus on the structure of a chart and how data are encoded onto…<br></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html">
+<a href="./posts/2022-Fall/2022-09-23-testing-charts-for-accuracy-and-interpretation/index.html" class="no-external">
 <div class="listing-date">
 Sep 23, 2022
 </div>
@@ -892,19 +891,19 @@ Kiegan Rice
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Dashboards,Shiny App,Python,R package" data-listing-date-sort="1651122000000" data-listing-file-modified-sort="1679465213247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="19" data-categories="Dashboards,Shiny App,Python,R package" data-listing-date-sort="1651122000000" data-listing-file-modified-sort="1679465213247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html"> <img src="./posts/2022-Spring/2022-04-28-alison.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Spring/2022-04-28-alison.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html">
 <h3 class="no-anchor listing-title">
-Using Python in R through the Reticulate Package and its Integration with R Shiny
+<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external">Using Python in R through the Reticulate Package and its Integration with R Shiny</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Dashboards'); return false;">
 Dashboards
@@ -919,14 +918,12 @@ Python
 R package
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html">
 <div class="listing-description">
-When working on a project, sometimes it is necessary to use different programming languages to accomplish a task. The <code>Reticulate</code> Package in R creates a R interface to Python, allowing for R and Python to be used smoothly with each other.…<code></code>
+<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external">When working on a project, sometimes it is necessary to use different programming languages to accomplish a task. The <code>Reticulate</code> Package in R creates a R interface to…<code></code></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html">
+<a href="./posts/2022-Spring/2022-04-28-using-python-in-r-through-the-reticulate-package-and-its-integration-with-r-shiny.html" class="no-external">
 <div class="listing-date">
 Apr 28, 2022
 </div>
@@ -936,19 +933,19 @@ Alison Kleffner
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Dashboards,Shiny App,Python,JavaScript" data-listing-date-sort="1649912400000" data-listing-file-modified-sort="1679465183451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="20" data-categories="Dashboards,Shiny App,Python,JavaScript" data-listing-date-sort="1649912400000" data-listing-file-modified-sort="1679465183451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html"> <img src="./posts/2022-Spring/2022-04-14-ian.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Spring/2022-04-14-ian.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html">
 <h3 class="no-anchor listing-title">
-Introduction to Dash (using Python) and Observable (Using JavaScript)
+<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external">Introduction to Dash (using Python) and Observable (Using JavaScript)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Dashboards'); return false;">
 Dashboards
@@ -963,14 +960,12 @@ Python
 JavaScript
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html">
 <div class="listing-description">
-If you have…
+<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external">If you have built a Shiny app, you have some familiarity with the concept of reactivity. For the next two graphics-groups, we’ll talk about two alternatives to Shiny which…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html">
+<a href="./posts/2022-Spring/2022-04-14.21-introduction-to-dash-and-observable.html" class="no-external">
 <div class="listing-date">
 Apr 14, 2022
 </div>
@@ -980,19 +975,19 @@ Ian Lyttle
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="Dashboards,Shiny App,communication" data-listing-date-sort="1649307600000" data-listing-file-modified-sort="1679465143256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="21" data-categories="Dashboards,Shiny App,communication" data-listing-date-sort="1649307600000" data-listing-file-modified-sort="1679465143256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html"> <img src="./posts/2022-Spring/2022-04-07-denise.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Spring/2022-04-07-denise.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html">
 <h3 class="no-anchor listing-title">
-Exploring Rural Shrink Smart Through Guided Discovery Dashboards
+<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external">Exploring Rural Shrink Smart Through Guided Discovery Dashboards</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Dashboards'); return false;">
 Dashboards
@@ -1004,14 +999,12 @@ Shiny App
 communication
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html">
 <div class="listing-description">
-Many small and rural places are shrinking. Interactive dashboards are the most common use cases for data visualization and context for exploratory data tools. In our paper…
+<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external">Many small and rural places are shrinking. Interactive dashboards are the most common use cases for data visualization and context for exploratory data tools. In our paper…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html">
+<a href="./posts/2022-Spring/2022-04-07-exploring-rural-shrink-smart-through-guided-discovery-dashboards.html" class="no-external">
 <div class="listing-date">
 Apr 7, 2022
 </div>
@@ -1021,19 +1014,19 @@ Denise Bradford
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Machine Learning,collaboration,spatial" data-listing-date-sort="1648098000000" data-listing-file-modified-sort="1678087433994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="22" data-categories="Machine Learning,collaboration,spatial" data-listing-date-sort="1648098000000" data-listing-file-modified-sort="1678087433994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html"> <img src="./posts/2022-Spring/2022-03-24-silas.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Spring/2022-03-24-silas.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html">
 <h3 class="no-anchor listing-title">
-Applying unsupervised and supervised learning methods to minimize risk to bald eagles from industrial wind turbines
+<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external">Applying unsupervised and supervised learning methods to minimize risk to bald eagles from industrial wind turbines</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
 Machine Learning
@@ -1045,14 +1038,12 @@ collaboration
 spatial
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html">
 <div class="listing-description">
-In this talk I describe a collaboration with research wildlife biologists and statisticians to analyze over 2 million data points collected from GPS telemetry devices…
+<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external">In this talk I describe a collaboration with research wildlife biologists and statisticians to analyze over 2 million data points collected from GPS telemetry devices…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html">
+<a href="./posts/2022-Spring/2022-03-24-applying-unsupervised-and-supervised-learning-methods-to-minimize-risk-to-bald-eagles-from-industrial-wind-turbines.html" class="no-external">
 <div class="listing-date">
 Mar 24, 2022
 </div>
@@ -1062,19 +1053,19 @@ Silas Bergen
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="Data Art,teaching,communication" data-listing-date-sort="1646892000000" data-listing-file-modified-sort="1679465440815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="23" data-categories="Data Art,teaching,communication" data-listing-date-sort="1646892000000" data-listing-file-modified-sort="1679465440815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html"> <img src="./posts/2022-Spring/2022-03-10-sara.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Spring/2022-03-10-sara.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html">
 <h3 class="no-anchor listing-title">
-Going Analog: Emerging from the Weeds and Broadening our Audience
+<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external">Going Analog: Emerging from the Weeds and Broadening our Audience</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Data Art'); return false;">
 Data Art
@@ -1086,14 +1077,12 @@ teaching
 communication
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html">
 <div class="listing-description">
-We could all use a break from our manuscripts (and our screens). Can thinking about our work in a new way help us re-energize? In this talk I’ll share some non-traditional…
+<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external">We could all use a break from our manuscripts (and our screens). Can thinking about our work in a new way help us re-energize? In this talk I’ll share some non-traditional…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html">
+<a href="./posts/2022-Spring/2022-03-10-going-analog-emerging-from-the-weeds-and-broadening-our-audience.html" class="no-external">
 <div class="listing-date">
 Mar 10, 2022
 </div>
@@ -1103,19 +1092,19 @@ Sara Stoudt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="Machine Learning,convolutional neural network,image processing,text analysis,python" data-listing-date-sort="1646287200000" data-listing-file-modified-sort="1678087488171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="24" data-categories="Machine Learning,convolutional neural network,image processing,text analysis,python" data-listing-date-sort="1646287200000" data-listing-file-modified-sort="1678087488171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html"> <img src="./posts/2022-Spring/2022-03-03-ved.PNG" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external">
+<p><img loading="lazy" src="./posts/2022-Spring/2022-03-03-ved.PNG" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html">
 <h3 class="no-anchor listing-title">
-Automatic Image Captioning using Convolutional and Recurrent Neural Networks
+<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external">Automatic Image Captioning using Convolutional and Recurrent Neural Networks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
 Machine Learning
@@ -1133,14 +1122,12 @@ text analysis
 python
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html">
 <div class="listing-description">
-Automatic image captioning is the process of generating a descriptive text description for an image. Image captioning is one of the few applications of deep neural networks…
+<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external">Automatic image captioning is the process of generating a descriptive text description for an image. Image captioning is one of the few applications of deep neural networks…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html">
+<a href="./posts/2022-Spring/2022-03-03-automatic-image-captioning-using-convolutional-and-recurrent-neural-networks.html" class="no-external">
 <div class="listing-date">
 Mar 3, 2022
 </div>
@@ -1150,19 +1137,19 @@ Ved Piyush
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="R package,maps,web scraping,API" data-listing-date-sort="1645682400000" data-listing-file-modified-sort="1678087511032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="25" data-categories="R package,maps,web scraping,API" data-listing-date-sort="1645682400000" data-listing-file-modified-sort="1678087511032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html"> <img data-src="./posts/2022-Spring/2022-02-24-ashirwad.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external">
+<p><img loading="lazy" data-src="./posts/2022-Spring/2022-02-24-ashirwad.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html">
 <h3 class="no-anchor listing-title">
-Map matching in R
+<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external">Map matching in R</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R package'); return false;">
 R package
@@ -1177,14 +1164,12 @@ web scraping
 API
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html">
 <div class="listing-description">
- Map matching is an interesting problem that involves snapping noisy GPS traces to a road network with a high degree of accuracy. It is used by ride-sharing services such as…
+<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external"> Map matching is an interesting problem that involves snapping noisy GPS traces to a road network with a high degree of accuracy. It is used by ride-sharing services such as…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html">
+<a href="./posts/2022-Spring/2022-02-24-Map-matching-in-R.html" class="no-external">
 <div class="listing-date">
 Feb 24, 2022
 </div>
@@ -1194,19 +1179,19 @@ Ashirwad Barnwal
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="visual inference,interactive graphics,User experiment" data-listing-date-sort="1645077600000" data-listing-file-modified-sort="1679465423102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="26" data-categories="visual inference,interactive graphics,User experiment" data-listing-date-sort="1645077600000" data-listing-file-modified-sort="1679465423102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <div class="thumbnail">
-<p><a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html"> <img data-src="./posts/2022-Spring/2022-02-17-emily.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external"></a></p><a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external">
+<p><img loading="lazy" data-src="./posts/2022-Spring/2022-02-17-emily.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html">
 <h3 class="no-anchor listing-title">
-Intergalactic Time Travel: Estimation Pilot Study
+<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external">Intergalactic Time Travel: Estimation Pilot Study</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('visual inference'); return false;">
 visual inference
@@ -1218,14 +1203,12 @@ interactive graphics
 User experiment
 </div>
 </div>
-<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html">
 <div class="listing-description">
- Questioning matters! The last graphical test for my research involves graph comprehension and extracting information from the chart. My talk will involve an interactive…
+<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external"> Questioning matters! The last graphical test for my research involves graph comprehension and extracting information from the chart. My talk will involve an interactive…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html">
+<a href="./posts/2022-Spring/2022-02-17-intergalactic-time-travel-estimation-pilot-study.html" class="no-external">
 <div class="listing-date">
 Feb 17, 2022
 </div>
@@ -1278,18 +1261,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1321,11 +1293,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1335,8 +1346,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1348,7 +1368,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1392,6 +1535,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1417,6 +1561,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1477,6 +1647,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
