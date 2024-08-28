@@ -12,7 +12,7 @@ page-layout: full
 title-block-banner: FALSE
 ---
 In the Fall 2024 semester, we are meeting on Wednesdays 1 - 2 pm (Central):
-at UNL we will meet in  Hardin Hall (small conference room), at ISU we meet in 2113 Snedecor (the big conference room),  we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools. 
+at UNL we will meet in 354A Hardin Hall (large conference room), at ISU we meet in TBD (ask Tom Lin),  we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools. 
 
 Contact Heike Hofmann, hhofmann4 at unl.edu, for access to the Zoom link.
 
