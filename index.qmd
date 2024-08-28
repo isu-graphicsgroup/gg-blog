@@ -1,6 +1,6 @@
 ---
 title: |
-  ![](colored-pencils.png)
+ ![](colored-pencils.png)
 listing:
   contents: posts
   sort: "date desc"
@@ -11,10 +11,10 @@ listing:
 page-layout: full
 title-block-banner: FALSE
 ---
-In the Fall 2023 semester, we are meeting on Thursdays at 3:05 pm (Central):
-at ISU, we meet in 2113 Snedecor (the big conference room), at UNL,  we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools. 
+In the Fall 2024 semester, we are meeting on Wednesdays 1 - 2 pm (Central):
+at UNL we will meet in  Hardin Hall (small conference room), at ISU we meet in 2113 Snedecor (the big conference room),  we will also meet via Zoom. Please join us for presentations on statistical graphics and computational tools. 
 
-Contact Heike Hofmann, hofmann at iastate.edu, for access to the Zoom link.
+Contact Heike Hofmann, hhofmann4 at unl.edu, for access to the Zoom link.
 
 <hr> 
 
