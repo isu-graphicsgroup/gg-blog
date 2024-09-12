@@ -5,10 +5,10 @@ date: '2024-09-11'
 categories:
   - Visualizations
   - Probability Theory
-# image: wires.png
+image: LebesgueOK_ManimCE_v0.18.1.gif
 description: | 
  Graduate programs in statistics usually involve a course or two in the theory of probability to understand the structure and inner workings of common statistical methods. These classes introduce unfamiliar abstract topics and mathematical machinery like measure theory and fourier analysis, which need to be understood at least partially to make the connection to statistics. Is it possible to make graphic visualizations to obtain a partial understanding of these topics? In this talk, I present a few simple animations made using the manim library (used in the popular 3Blue1Brown videos), some of which had to be constructed during my attempt to study Probability Theory over the last year.
 
 ---
 
-<!-- ![](wires.png) -->
+![](LebesgueOK_ManimCE_v0.18.1.gif)
