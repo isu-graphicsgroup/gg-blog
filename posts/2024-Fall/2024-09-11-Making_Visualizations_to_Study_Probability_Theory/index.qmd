@@ -12,3 +12,4 @@ description: |
 ---
 
 ![](LebesgueOK_ManimCE_v0.18.1.gif)
+![](CLTNormalCF_ManimCE_v0.18.1.gif)
