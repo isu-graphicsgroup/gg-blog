@@ -1,0 +1,15 @@
+---
+title: "Let's go down the rabbit hole!"
+author: "Tyler Wiederich"
+date: "2024-09-25"
+categories:
+  - Research Rabbit
+  - Literature review
+  - Zotero
+image: image.png
+description: | 
+ Finding papers for literature reviews can be a tedious process. In this presentation, I will introduce Research Rabbit, a free application for finding connected papers and discovering networks of research areas. Research Rabbit allows you to create a collection of papers, follow citations/references, and more! With a Zotero integration tool, this application can help speed up the research process and make exploring papers more fun. I will give a live demonstration of Research Rabbit while we explore new papers together.
+
+---
+
+![](image.png)
