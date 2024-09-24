@@ -4,6 +4,7 @@ author: Dan Novy
 date: '2024-09-18'
 categories:
   - AI
+  - Machine learning
 # image: LebesgueOK_ManimCE_v0.18.1.gif
 description: | 
  Explore the dynamic and rapidly evolving field of generative AI, exploring the latest tools, techniques, and advancements that are shaping its development. As generative AI continues to transform creative industries, scientific research, and technological solutions, understanding its capabilities and underlying mechanisms is paramount. We will examine current cutting-edge models that drive AI creativity, highlighting their applications in generating text, images, music, data visualization and more. By integrating examples from my own creative projects and research endeavors, this talk aims to showcase the practical implementations of generative AI and its potential to inspire new forms of artistic and scientific expression. Attendees will gain a comprehensive insight into how generative AI can be harnessed to enhance creativity and solve complex problems in various domains.
