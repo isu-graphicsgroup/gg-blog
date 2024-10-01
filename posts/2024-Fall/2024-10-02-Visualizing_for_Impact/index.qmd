@@ -1,0 +1,15 @@
+---
+title: "Visualizing for Impact: the role of data visualization expertise in public policy research"
+author: "Kiegan Rice"
+date: "2024-10-02"
+categories:
+  - Data visualization
+  - Public policy
+  - Applied statistics
+image: image.png
+description: | 
+ Data visualization is a major component of the research process in applied statistics and data science work. Visual exploration of data helps researchers understand characteristics of a data set or model, explore distributions, identify patterns, and even test hypotheses. When research data will be used to make decisions about public policy, it is imperative to communicate data in a clear and accessible way: both decision-makers and the populations their decisions impact should be able to understand data that inform those decisions. This often means that the best way to visualize data may not be the way that researchers find most informative or interesting, but rather the way that will most effectively reach the right audience. In this talk, I'll share some examples of effective visual communication for public policy and principles for maximizing the impact of your visuals for your audience. I will also discuss how these principles extend to a career in statistics and data science and share lessons learned about effective visual communication in the workplace.
+
+---
+
+![](image.png)
