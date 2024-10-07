@@ -1,0 +1,17 @@
+---
+title: "Setting Up Real-Time Object Detection, Classification, Human Pose Estimation, and Open Vocabulary Object Detection In Minutes Using Ultralytics"
+author: "Carson Trego"
+date: "2024-10-09"
+categories:
+  - Object Detection
+  - Classification
+  - Human Pose Estimation
+  - Ultralytics
+image: image1.png
+description: | 
+ Computer vision has come a long way in the last decade, and now it is easier than ever to get started. Using the Ultralytics library, you can run pre-trained object detection, classification, human pose estimation, and open vocabulary object detection locally on your computer using only a few simple scripts. The entire process of downloading, installing, and running the models in real time takes only a few minutes, and each model is downloaded automatically, making this one of the fastest and easiest ways to get started with deep learning computer vision models. There are a range of model sizes to choose from depending on your hardware, but each model is designed to run with live video data. Efficient by design, most computers can use the real time features (albeit, possibly with a low frame rate), but the models can be used on downloaded images and videos as well. In this session, I will provide a short tutorial on installing Ultralytics and a set of scripts that can perform object detection, classification, human pose estimation, and open vocabulary object detection.
+
+---
+
+![](image1.png)
+![](image2.png)
