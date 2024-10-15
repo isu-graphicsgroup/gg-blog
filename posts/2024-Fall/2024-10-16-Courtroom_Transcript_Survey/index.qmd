@@ -1,0 +1,15 @@
+---
+title: "Creating an R Package for Courtroom Transcript Survey Interface"
+author: "Rachel Rogers"
+date: "2024-10-16"
+categories:
+  - R Package
+  - courtr
+  - Courtroom Transcript Survey
+image: image.png
+description: | 
+ Many courtroom studies use a transcript format (with Q: and A: speaker prompts) for presenting information to participants. This format may not be engaging for participants and can lead to confusion in terms of speakers. We are developing an R package ('courtr') that follows the format of our previous research studies, which includes a text box, speech bubbles, and cartoon characters (we are currently designing a study to validate the use of these cartoon characters. You can view the study and provide feedback here: [https://shiny.srvanderplas.com/characters/](https://shiny.srvanderplas.com/characters/)). In this presentation, I will go through the process of creating an R package, using 'courtr' as an example.
+
+---
+
+![](image.png)
