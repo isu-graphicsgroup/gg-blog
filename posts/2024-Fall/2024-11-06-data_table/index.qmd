@@ -1,0 +1,15 @@
+---
+title: "Using and contributing to the data.table package for efficient big data analysis"
+author: "Toby Hocking"
+date: "2024-11-06"
+categories:
+  - R Package
+  - data.table
+  - big data
+image: image.png
+description: | 
+ data.table is one of the most efficient open-source in-memory data manipulation packages available today. First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1500 other CRAN packages depend on data.table. This talk will start with data reading from CSV, discuss basic and advanced data manipulation topics, and finally will end with a discussion about how you can contribute to data.table.
+
+---
+
+![](image.png)
