@@ -1,0 +1,15 @@
+---
+title: "Visualize your fitted nonlinear dimension reduction model in the high-dimensional data space"
+author: "Jayani Lakshika"
+date: "2024-11-13"
+categories:
+  - R Package
+  - quollr
+  - Visualization
+image: image.png
+description: | 
+ Non-linear dimension reduction (NLDR) techniques such as tSNE, UMAP, PHATE, PaCMAP, and TriMAP provide a low-dimensional representation of high-dimensional data by applying non-linear transformation. The methods and parameter choices can create wildly different representations, so much so that it is difficult to decide which is best, or whether any or all are accurate or misleading. NLDR often exaggerates random patterns, sometimes due to the samples observed, but NLDR views have an important role in data analysis because, if done well, they provide a concise visual (and conceptual) summary of high dimensional distributions. To help evaluate the NLDR we have developed a way to take the fitted model, as represented by the positions of points in 2D, and turn it into a high-dimensional wireframe to overlay on the data, viewing it with a tour. Viewing a model in the data space is an ideal way to examine the fit. One can see whether it fits the points everywhere or fits better in some places, or simply mismatches the pattern. It is used here to help with the difficult decision on which 2D layout is the best representation of the high-dimensional distribution, or whether the 2D layout is displaying mostly random structure. It can also help to see how different layouts made by different methods are effectively the same summary, or how the different methods have some particular quirks. This methodology is available in the R package [`quollr`](https://github.com/JayaniLakshika/quollr).
+
+---
+
+![](image.png)
