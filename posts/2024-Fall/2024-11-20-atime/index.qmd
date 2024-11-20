@@ -1,0 +1,20 @@
+---
+title: "Asymptotic timing and memory analysis with the atime packages"
+author: "Doris Amoakohene"
+date: "2024-11-20"
+categories:
+  - R Package
+  - atime
+  - Visualization
+image: atime.list.png
+description: | 
+ The atime package introduces an approach to benchmarking statistical software by enabling asymptotic performance measurement across different data set sizes denoted by N. Unlike other benchmarking functions that compare performance for a single data set, atime allows researchers to measure time and memory usage for increasingly large input sizes, which helps in estimating computational complexity classes using big-O notation. The package has already been applied to improve efficiency in significant projects like the data.table package, demonstrating its practical utility in software optimization.
+
+---
+
+![](atime.list.png)
+![](best.list.png)
+
+![](gg.write.png)
+
+![](pred.list.png)
