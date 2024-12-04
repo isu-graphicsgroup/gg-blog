@@ -1,0 +1,15 @@
+---
+title: "Pivoting between space and time: Spatio-temporal analysis with cubble"
+author: "Sherry Zhang"
+date: "2024-12-04"
+categories:
+  - R Package
+  - cubble
+  - Visualization
+image: image.png
+description: | 
+ Multivariate spatio-temporal data have a spatial component referring to the location of each observation, a temporal component recorded at regular or irregular time intervals, and multiple variables measured at each spatial and temporal value. Often, such data are fragmented, reflecting a common practice of focusing on either spatial or temporal aspects separately. This fragmentation makes it difficult to handle them coherently and comprehensively. This work introduces a new data structure to facilitate the study of different portions or combinations of spatio-temporal data for exploratory data analysis. The proposed structure, implemented in the R package, cubble, organizes spatial and temporal variables as two facets of a single data object, allowing them to be wrangled separately or combined while ensuring synchronization. Examples will be provided to visualize weather station data with cubble using glyph maps.
+
+---
+
+![](image.png)
